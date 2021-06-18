@@ -10,7 +10,6 @@ const Example = () => {
   return (
     <View style={styles.wrapperAll}>
       <TabSelectorAnimation
-        index={indexTab}
         onChangeTab={setIndexTab}
         style={styles.tabSelector}
         tabs={DATA}

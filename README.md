@@ -8,10 +8,15 @@
 
 ```bash
 yarn add react-native-tab-selector
-or
-npm install --save react-native-tab-selector
 ```
+## Props
 
+- **tabs**: `array[]` input of tab data
+- **onChangeTab**: `void()` return current tab index active.
+- **style**: Container style.
+- **backgroundColor**: Background color of component.
+- **styleTab**: custom style of each tab.
+- **styleTitle**: custom style of text title tab.
 ## Usage
 
 ```jsx
@@ -54,6 +59,8 @@ const styles = StyleSheet.create({
 
 export default Example
 ```
+
+## Demo
 ![Demo](https://github.com/Duya3fithou/react-native-tab-selector/blob/master/example/ex.gif)
 ## License
 
