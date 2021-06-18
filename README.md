@@ -1,6 +1,6 @@
 # react-native-tab-selector
 
-> Made with create-react-library
+> This component is tab selector, return index of active tab, width animation
 
 [![NPM](https://img.shields.io/npm/v/react-native-tab-selector.svg)](https://www.npmjs.com/package/react-native-tab-selector) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -9,14 +9,16 @@
 ```bash
 yarn add react-native-tab-selector
 ```
+
 ## Props
 
-- **tabs**: `array[]` input of tab data
-- **onChangeTab**: `void()` return current tab index active.
+- **tabs**: `array[]` input of tab data - `required`
+- **onChangeTab**: `void()` return current tab index active. - `required`
 - **style**: Container style.
 - **backgroundColor**: Background color of component.
 - **styleTab**: custom style of each tab.
 - **styleTitle**: custom style of text title tab.
+
 ## Usage
 
 ```jsx
@@ -60,7 +62,9 @@ export default Example
 ```
 
 ## Demo
+
 ![Demo](https://github.com/Duya3fithou/react-native-tab-selector/blob/master/example/ex.gif)
+
 ## License
 
 MIT © [duya3fithou](https://github.com/duya3fithou)

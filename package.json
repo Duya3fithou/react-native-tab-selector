@@ -18,7 +18,6 @@
   "bugs": {
     "url": "https://github.com/duya3fithou/react-native-tab-selector/issues"
   },
-  "source": "./src",
   "homepage": "https://github.com/duya3fithou/react-native-tab-selector#readme",
   "main": "index.js",
   "engines": {
