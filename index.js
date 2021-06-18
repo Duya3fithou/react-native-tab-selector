@@ -148,3 +148,6 @@ const styles = StyleSheet.create({
     borderRadius: 20
   }
 })
+
+module.exports = TabSelectorAnimation
+module.exports.default = TabSelectorAnimation
