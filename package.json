@@ -1,6 +1,6 @@
 {
   "name": "react-native-tab-selector",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This component is tab selector, return index of active tab, width animation",
   "author": "duya3fithou",
   "license": "MIT",
