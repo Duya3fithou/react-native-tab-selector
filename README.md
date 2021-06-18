@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
 
 export default Example
 ```
-![Alt Text](https://github.com/Duya3fithou/react-native-tab-selector/example/ex.gif)
+![Demo](https://github.com/Duya3fithou/react-native-tab-selector/blob/master/example/ex.gif)
 ## License
 
 MIT © [duya3fithou](https://github.com/duya3fithou)
