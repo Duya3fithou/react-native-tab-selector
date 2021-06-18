@@ -1,30 +1,31 @@
 {
   "name": "react-native-tab-selector",
   "version": "1.0.0",
-  "description": "Made with create-react-library",
+  "description": "This component is tab selector, return index of active tab, width animation",
   "author": "duya3fithou",
   "license": "MIT",
-  "repository": "duya3fithou/react-native-tab-selector",
-  "main": "dist/index.js",
-  "module": "dist/index.modern.js",
-  "source": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duya3fithou/react-native-tab-selector.git"
+  },
+  "keywords": [
+    "animated",
+    "tab animation",
+    "react-native",
+    "react-native-tab-animated",
+    "react-native-tab-selector"
+  ],
+  "bugs": {
+    "url": "https://github.com/duya3fithou/react-native-tab-selector/issues"
+  },
+  "homepage": "https://github.com/duya3fithou/react-native-tab-selector#readme",
+  "main": "index.js",
   "engines": {
     "node": ">=10"
   },
-  "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
-    "start": "microbundle-crl watch --no-compress --format modern,cjs",
-    "prepare": "run-s build",
-    "test": "run-s test:unit test:lint test:build",
-    "test:build": "run-s build",
-    "test:lint": "eslint .",
-    "test:unit": "cross-env CI=1 react-scripts test --env=jsdom",
-    "test:watch": "react-scripts test --env=jsdom",
-    "predeploy": "cd example && npm install && npm run build",
-    "deploy": "gh-pages -d example/build"
-  },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0",
+    "react-native": "*"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
